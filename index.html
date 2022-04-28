@@ -14,6 +14,8 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Proyecto-final</title>
 </head>
 
@@ -72,7 +74,8 @@
         <section class="section2">
 
             <h2 class="titulo2">¿Cómo hago para comprar?</h2>
-            <div class="section2container">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="section2container">
                 <div class="contenedor2">
                     <h3 class="titulos2">Ingresá tu Código Postal</h3>
 
@@ -170,7 +173,9 @@
 
 
 
-
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
