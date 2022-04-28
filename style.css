@@ -79,7 +79,7 @@ body {
 }
 
 h1 {
-    color: white;
+    
     font-size: 4rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -87,12 +87,13 @@ h1 {
     line-height: 1;
     color: #ffffff;
     text-shadow: 0px 4px 4px rgba(77, 17, 66, 1);
-    margin: 4rem;
+    margin: 6rem;
+    
     padding: 5rem;
     word-spacing: 0.5rem;
     letter-spacing: 0.5rem;
-    
-    
+
+
 }
 
 
@@ -101,6 +102,10 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 10rem;
+    background-image: url(imagenes/undraw_online_groceries_a02y.svg);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 15%;
 
 }
 
@@ -108,6 +113,8 @@ h1 {
     overflow: hidden;
     width: 80%;
     margin: auto;
+
+
 }
 
 .carrusel li {
@@ -173,7 +180,11 @@ h1 {
 
 /*------------FIN-SECTION1---SECTION-2----*/
 
-.section2 {}
+.section2 {
+    background-image: url("imagenes/undraw_wine_tasting_-30-vw.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .titulo2 {
     font-size: 4.5rem;
@@ -230,9 +241,9 @@ h1 {
     border: solid 2px black;
     position: relative;
     margin-top: 33%;
-    bottom:0;
-    width:100%;
-    
+    bottom: 0;
+    width: 100%;
+
 }
 
 
@@ -242,28 +253,28 @@ h1 {
     font-size: 1.5rem;
     font-family: sans-serif;
     margin: 1rem;
-    
-    
-    
+
+
+
 
 }
 
 
 
-.contenedorfuter{
+.contenedorfuter {
     display: flex;
     justify-content: space-around;
     color: white;
-    
+
 }
 
-.listafuter{
+.listafuter {
     text-decoration: none;
     list-style: none;
     line-height: 2rem;
     font-family: sans-serif;
     font-size: 1rem;
-    
+
 }
 
 
@@ -272,14 +283,14 @@ h1 {
 
 
 .fa {
-    
+
     padding: 30px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 0rem;
-    
+
 }
 
 .fa:hover {
@@ -311,26 +322,24 @@ h1 {
 /*------------FIN-FOOTER---ZNDE--------*/
 
 
-.contenedorzonas{
-    
-    
-    
+.contenedorzonas {
+
 }
 
-.tituloentrega{
+.tituloentrega {
     color: #ffffff;
     text-shadow: 0px 4px 4px rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-size: 4rem;
     text-align: center;
     margin-top: 5rem;
-    
-    
-    
-    
+
+
+
+
 }
 
-.textoentrega{
+.textoentrega {
     color: white;
     font-size: 1.5rem;
     font-family: sans-serif;
@@ -338,19 +347,17 @@ h1 {
     padding-top: 3rem;
 }
 
-.mapazonas{
+.mapazonas {
     padding-left: 32rem;
     margin-top: 6rem;
     object-fit: contain;
     transition: 1s;
-    
-    }
 
-.mapazonas:hover{
-    transform: scale(1.4);
-    
-    
-    
 }
 
+.mapazonas:hover {
+    transform: scale(1.4);
 
+
+
+}
