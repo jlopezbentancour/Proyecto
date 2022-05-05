@@ -1,38 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Orelega+One&display=swap');
-        </style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Proyecto-final</title>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Orelega+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
+    <title>Proyecto-final</title>
+</head>
+
 <body>
-    <header>
-        <div class="header1">
-            <nav class="navegacion">
+  <header>
 
-                <ul class="menu">
+    <nav class="navbar navbar-expand-xl">
+      <div class="container">
+          <a class="navbar-brand" href="#">L'escabio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+              aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarBasic">
+              <ul class="navbar-nav m-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="bebidas.html">Ver Bebidas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="zona-de-entregas.html">Zona de
+                          Entregas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="nosotros.html">Sobre nosotros</a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input class="form-control px-2 search" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn0 btn-outline-success" type="submit">Buscar</button>
+              </form>
+          </div>
+      </div>
+  </nav>
 
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="bebidas.html">Bebidas</a></li>
-
-                    <li><a href="zona-de-entregas.html">Zonas de entrega</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="pediahora.html" class="pedidale">Hace tu Pedido!</a></li>
-                </ul>
-
-
-            </nav>
-        </div>
-    </header>
+</header>
 
 
 <main>
@@ -45,63 +70,75 @@
 
 
 
-    <footer class="futer">
-
-        <div class="contenedorfuter">
-            <div>
-                <h4 class="titulofuter">Redes</h4>
-                <div class="redes">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                </div>
-                <h4 class="titulofuter">Formas de Pago</h4>
-
-
-            </div>
-            <div>
-
-                <h5 class="titulofuter">Nosotros</h5>
-                <ul class="listafuter">
-                    <li>Preguntas Frecuentes</li>
-                    <li>Tiempos y formas de entrega</li>
-                    <li>Quienes somos</li>
-                    <li>Sucursales</li>
-                    <li>Devoluciones</li>
-                </ul>
-            </div>
-
-
-
-
-            <div class="prueba">
-                <h4 class="titulofuter">Legales</h4>
-                <ul class="listafuter">
-                    <li>Términos y condiciones</li>
-                    <li>Políticas de Stock</li>
-                    <li>Política de Privacidad</li>
-                    <li>Medidas Covid - 19</li>
-                </ul>
-            </div>
-
-
-            <div>
-                <h4 class="titulofuter">Productos</h4>
-                <ul class="listafuter">
-                    <li>Todas las bebidas</li>
-                    <li>Cervezas</li>
-                    <li>Gaseosas</li>
-                    <li>Aguas</li>
-                    <li>Aguas saborizadas</li>
-                </ul>
-            </div>
-
-        </div>
+<footer class="futer">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-11">
+              <div class="row">
+                  <div class="col-lg-3 py-3">
+                      <h5>Nosotros</h5>
+                      <p>Preguntas Frecuentes</p>
+                      <p>Tiempos y formas de entrega</p>
+                      <p>Quienes somos</p>
+                      <p>Sucursales</p>
+                      <p>Devoluciones</p>
+                  </div>
+                  <div class="col-lg-3 py-3">
+                      <h5>Legales</h5>
+                      <p>Términos y condiciones</p>
+                      <p>Políticas de Stock</p>
+                      <p>Política de Privacidad</p>
+                      <p>Medidas Covid - 19</p>
+                  </div>
+                  <div class="col-lg-3 py-3">
+                      <h5>Productos</h5>
+                      <p>Todas las bebidas</p>
+                      <p>Cervezas</p>
+                      <p>Gaseosas</p>
+                      <p>Aguas</p>
+                      <p>Aguas saborizadas</p>
+                  </div>
+                  <div class="col-lg-3 py-3">
+                      <h5>Redes</h5>
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-instagram"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
-    </footer>
+
+</footer>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>

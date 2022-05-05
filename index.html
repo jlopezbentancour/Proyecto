@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
     <title>Proyecto-final</title>
 </head>
 
@@ -23,87 +28,259 @@
 
 
     <header>
-        <div class="header1">
-            <nav class="navegacion">
 
-                <ul class="menu">
+        <nav class="navbar navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand" href="#">L'escabio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                    aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarBasic">
+                    <ul class="navbar-nav m-auto mb-2 mb-xl-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bebidas.html">Ver Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="zona-de-entregas.html">Zona de
+                                Entregas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control px-2 search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn0 btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="bebidas.html">Bebidas</a></li>
-
-                    <li><a href="zona-de-entregas.html">Zonas de entrega</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="pediahora.html" class="pedidale">Hace tu Pedido!</a></li>
-                </ul>
-
-
-            </nav>
-        </div>
     </header>
-
-
+<!------------------------------------------------MAIN------------------------------------->
+<!-----------------------------SECTION1------------------------>
     <main>
-        <section class="section1">
+        <section class="main2">
+            <div class="container py-5 px-5">
+                <div class="row py-5 px-4">
+                    <div class="col-lg-7 pt-5 text-center">
+                        <h1 class="pt-5">¡Ahorrá siempre en tus bebidas!</h1>
+                        <button class="btn3 mt-3">Que tenemos?</button>
+                    </div>
+                </div>
+            </div>
 
-            <h1  class="animate__animated animate__backInDown"><strong>¡Ahorrá dinero y tiempo<strong> en tus bebidas!</h1>
+        </section>
+<!-----------------------------SECTION2------------------------------>
+        <section class="section2">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="section2container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="contenedor2">
+                                <h3 class="titulos2">Ingresá tu Código Postal</h3>
+
+                                <div class="texto2">Decínos dónde estás y te mostramos lo que hay disponible en tu zona.
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="contenedor2">
+
+                                <h3 class="titulos2">Armá tu carrito</h3>
+
+                                <div class="texto2"> Buscá entre miles de productos mundialmente reconocidos y otros que
+                                    no
+                                    tanto.
+                                    Elegí tus favoritos,
+                                    seleccioná la forma de entrega y tocá el botón mágico de comprar.</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="contenedor2">
+
+                                <h3 class="titulos2">Sentate y relajá</h3>
+
+                                <div class="texto2">Te vamos a avisar cuando despachamos tu pedido y listo. Tus bebidas
+                                    en
+                                    la puerta
+                                    de tu casa, cuánto
+                                    antes.
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-            <div class="slider">
-                <ul class="carrusel">
-                    <li>
-                        <img src="imagenes/corona.jpg" alt="bebida 1" class="img-carrusel">
-                    </li>
-                    <li>
-                        <img src="imagenes/nose.jpg" alt="bebida 3" class="img-carrusel">
-                    </li>
-                    <li>
-                        <img src="imagenes/vodka1.png" alt="bebida 4" class="img-carrusel">
-                    </li>
-                    <li>
-                        <img src="imagenes/vodka2.png" alt="bebida 5" class="img-carrusel">
-                    </li>
-                    <li>
-                        <img src="imagenes/vodka3.png" alt="bebida 6" class="img-carrusel">
-                    </li>
-                </ul>
+
+
+
+            </div>
+        </section>
+
+<!--------------------------------SECTION3------------------------->
+
+        <section class="productos">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-lg-5 m-auto text-center">
+                        <h2 class="texto33">¡Precios hasta 45% OFF!</h2>
+                        <h6 class="texto44">Tus bebidas de siempre, de la fábrica a tu casa y sin intermediarios</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/vodka3.png" alt="" class="img-fluid" width="250px">
+                            </div>
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/vodka1.png" alt="" width="250px" class="img-fluid">
+                            </div>
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/vodka2.png" alt="" width="250px" class="img-fluid">
+                            </div>
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/nose.jpg" alt="" width="250px" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/nose.jpg" alt="" width="250px" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/nose.jpg" alt="" width="250px" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/nose.jpg" alt="" width="250px" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="imagenes/nose.jpg" alt="" width="250px" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <h6>Vodka</h6>
+                        <p>$15000</p>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 text-center m-auto">
+                        <button class="btn3">Apreta aca bro</button>
+                    </div>
+                </div>
+
             </div>
 
 
         </section>
-
-        <section class="section2">
-
-            <h2 class="titulo2">¿Cómo hago para comprar?</h2>
-            <div data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom" class="section2container">
-                <div class="contenedor2">
-                    <h3 class="titulos2">Ingresá tu Código Postal</h3>
-
-                    <div class="texto2">Decínos dónde estás y te mostramos lo que hay disponible en tu zona.
+<!---------------------SECTION4---------------------->
+        <section class="contacta py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-5 m-auto text-center">
+                        <h2>Contactanos</h2>
+                        <h6>Support 24/7</h6>
                     </div>
-
                 </div>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h6>
+                                    Ubicacion
+                                </h6>
+                                <p>Corleone, Sicilia</p>
 
-                <div class="contenedor2">
+                                <h6>Telefono</h6>
+                                <p>1234567</p>
 
-                    <h3 class="titulos2">Armá tu carrito</h3>
+                                <h6>Email</h6>
+                                <p>agnorop@gmail.com</p>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control bg-light" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control bg-light" placeholder="Nombre">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 py-3">
+                                    <textarea name="" class="form-control bg-light" placeholder="Pone lo que quieras"
+                                        id="" cols="30" rows="10"></textarea>
+                                </div>
 
-                    <div class="texto2"> Buscá entre miles de productos mundialmente reconocidos y otros que no tanto.
-                        Elegí tus favoritos,
-                        seleccioná la forma de entrega y tocá el botón mágico de comprar.</div>
-                </div>
-
-                <div class="contenedor2">
-
-                    <h3 class="titulos2">Sentate y relajá</h3>
-
-                    <div class="texto2">Te vamos a avisar cuando despachamos tu pedido y listo. Tus bebidas en la puerta
-                        de tu casa, cuánto
-                        antes.
+                            </div>
+                            <button class="btn3">Enviar</button>
+                        </div>
                     </div>
-                    
                 </div>
-                
             </div>
         </section>
 
@@ -112,62 +289,49 @@
 
     </main>
 
-
+<!-----------------------------------FOOTER------------------------------------------->
 
 
 
     <footer class="futer">
-
-        <div class="contenedorfuter">
-            <div>
-                <h4 class="titulofuter">Redes</h4>
-                <div class="redes">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="row">
+                        <div class="col-lg-3 py-3">
+                            <h5>Nosotros</h5>
+                            <p>Preguntas Frecuentes</p>
+                            <p>Tiempos y formas de entrega</p>
+                            <p>Quienes somos</p>
+                            <p>Sucursales</p>
+                            <p>Devoluciones</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Legales</h5>
+                            <p>Términos y condiciones</p>
+                            <p>Políticas de Stock</p>
+                            <p>Política de Privacidad</p>
+                            <p>Medidas Covid - 19</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Productos</h5>
+                            <p>Todas las bebidas</p>
+                            <p>Cervezas</p>
+                            <p>Gaseosas</p>
+                            <p>Aguas</p>
+                            <p>Aguas saborizadas</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Redes</h5>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="titulofuter">Formas de Pago</h4>
-
-
             </div>
-            <div>
-
-                <h5 class="titulofuter">Nosotros</h5>
-                <ul class="listafuter">
-                    <li>Preguntas Frecuentes</li>
-                    <li>Tiempos y formas de entrega</li>
-                    <li>Quienes somos</li>
-                    <li>Sucursales</li>
-                    <li>Devoluciones</li>
-                </ul>
-            </div>
-
-
-
-
-            <div class="prueba">
-                <h4 class="titulofuter">Legales</h4>
-                <ul class="listafuter">
-                    <li>Términos y condiciones</li>
-                    <li>Políticas de Stock</li>
-                    <li>Política de Privacidad</li>
-                    <li>Medidas Covid - 19</li>
-                </ul>
-            </div>
-
-
-            <div>
-                <h4 class="titulofuter">Productos</h4>
-                <ul class="listafuter">
-                    <li>Todas las bebidas</li>
-                    <li>Cervezas</li>
-                    <li>Gaseosas</li>
-                    <li>Aguas</li>
-                    <li>Aguas saborizadas</li>
-                </ul>
-            </div>
-
         </div>
+
 
 
 
@@ -175,9 +339,22 @@
 
 
 
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
     <script>
         AOS.init();
-      </script>
+    </script>
+  
 
 </body>
 

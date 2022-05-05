@@ -5,190 +5,121 @@
 
 }
 
-
-
-.header1 {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 12%, rgba(77, 17, 66, 1) 56%, rgba(60, 14, 49, 1) 77%);
-    height: 6rem;
-    border: solid 1px black;
-
-
-}
-
-ul li a {
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 2rem;
-
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: 0 0 10px #FFFFFF;
-    color: #FFFFFF;
-    display: flex;
-    justify-items: baseline;
-
-
-
-
-
-}
-
-
-.menu {
-
-    display: flex;
-    justify-content: baseline;
-    padding: 10px;
-
-
-    list-style: none;
-    font-size: 1rem;
-    text-decoration: none;
+header{
+    background-color: transparent;
 }
 
 
 
-.navegacion {
-    list-style: none;
-}
-
-
-
-.pedidale {
+.navbar-brand {
     font-size: 3rem;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Orelega One', cursive;
-    padding-top: 2%;
-    padding-left: 12rem;
-
-
-
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #363635, 0 -18px 40px rgb(3, 3, 3);
-    color: #FFFFFF;
-
-
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
 }
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 248, 248);
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
+    font-weight: 700;
+    border: solid 1px white;
+    border-radius: 60px;
+}
+
+.main2 {
+    background-image: url(imagenes/caipirinha-4782694_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+
+
+
+
 
 
 /*------------FIN-HEADER---SECTION-1----*/
 
 
 body {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 12%, rgba(77, 17, 66, 1) 56%, rgba(60, 14, 49, 1) 77%);
+    background: black;
+
 }
 
 h1 {
-    
     font-size: 4rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 5rem;
-    line-height: 1;
-    color: #ffffff;
-    text-shadow: 0px 4px 4px rgba(77, 17, 66, 1);
-    margin: 6rem;
-    
-    padding: 5rem;
-    word-spacing: 0.5rem;
-    letter-spacing: 0.5rem;
+    font-weight: 700;
+    color: rgb(255, 254, 254);
 
 
 }
 
 
 
-.section1 {
-    display: flex;
-    justify-content: center;
-    padding: 10rem;
-    background-image: url(imagenes/undraw_online_groceries_a02y.svg);
-    background-repeat: no-repeat;
-    background-position: 1rem;
-    background-size: 15%;
+.btn3 {
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn3:hover {
+    background-color: rgb(120, 53, 228);
+    transition: 0.5s;
 
 }
 
-.slider {
-    overflow: hidden;
-    width: 80%;
-    margin: auto;
-
-
-}
-
-.carrusel li {
-    list-style: none;
-    width: 100%;
-}
-
-.img-carrusel {
-    width: 100%;
-}
-
-.carrusel {
-    display: flex;
-    padding: 0px;
-    width: 500%;
-
-    animation: carrusel 20s linear infinite alternate;
-}
-
-@keyframes carrusel {
-    0% {
-        margin-left: 0;
-    }
-
-    15% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: -100%;
-    }
-
-    35% {
-        margin-left: -100%;
-    }
-
-    40% {
-        margin-left: -200%;
-    }
-
-    55% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -300%;
-    }
-
-    85% {
-        margin-left: -300%;
-    }
-
-    90% {
-        margin-left: -400%;
-    }
-
-    100% {
-        margin-left: -400%;
-    }
-}
 
 
 
 /*------------FIN-SECTION1---SECTION-2----*/
 
 .section2 {
-    background-image: url("imagenes/undraw_wine_tasting_-30-vw.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(imagenes/beach-1869523_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
 }
 
 .titulo2 {
     font-size: 4.5rem;
-    color: #ffffff;
+    color: #000000;
     text-shadow: 0px 4px 4px rgb(0, 0, 0);
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -202,13 +133,13 @@ h1 {
 }
 
 .contenedor2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 20%;
+    width: 10rem 20rem;
     padding: 4rem;
     margin: 0 auto;
-    border: solid 15px black;
+
 
 
 }
@@ -220,7 +151,7 @@ h1 {
     font-size: 2.5rem;
     font-family: "Poppins", sans-serif;
     width: 20rem;
-    padding-right: 4rem;
+    padding-right: 5.3rem;
 
 }
 
@@ -229,8 +160,37 @@ h1 {
     padding-right: 8rem;
     width: 20rem;
     margin-top: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);
 
 
+}
+
+/*------------FIN-SECTION2---SECTION-3----*/
+.texto33 {
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+
+.productos {
+    background-color: white;
+    
+}
+
+.card:hover {
+    box-shadow: -3px 0px 27px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px 0px 27px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 0px 27px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+/*------------FIN-SECTION3---SECTION-4----*/
+
+.contacta {
+    background-color: white;
+    border: solid 2px black;
 }
 
 
@@ -238,48 +198,12 @@ h1 {
 /*------------FIN-SECTION3---FOOTER----*/
 
 .futer {
-    border: solid 2px black;
-    position: relative;
-    margin-top: 33%;
-    bottom: 0;
-    width: 100%;
-
-}
-
-
-.titulofuter {
-    color: #ffffff;
-    text-shadow: 0px 4px 4px rgb(0, 0, 0);
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    margin: 1rem;
-
-
-
-
-}
-
-
-
-.contenedorfuter {
-    display: flex;
-    justify-content: space-around;
     color: white;
+    height: 10rem;
+    margin: 3rem;
+    
 
 }
-
-.listafuter {
-    text-decoration: none;
-    list-style: none;
-    line-height: 2rem;
-    font-family: sans-serif;
-    font-size: 1rem;
-
-}
-
-
-
-
 
 
 .fa {
@@ -322,42 +246,122 @@ h1 {
 /*------------FIN-FOOTER---ZNDE--------*/
 
 
-.contenedorzonas {
+.contenedorzonas {}
 
+
+.entrega24{
+    background-image: url(imagenes/bw1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
 }
 
 .tituloentrega {
     color: #ffffff;
     text-shadow: 0px 4px 4px rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
+    
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 25rem;
+    font-weight: 700;
+    }
+
+    .animate__animated.animate__flipInX{
+        animation-duration: 1.5s;
+        animation-delay: 0.2s;
+        
+    }
 
 
-
-
-}
 
 .textoentrega {
-    color: white;
-    font-size: 1.5rem;
-    font-family: sans-serif;
+    color: rgb(253, 253, 255);
+    font-size: 2rem;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 10rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.section25{
+    background-color: black;
+    background-image: url(imagenes/nueva7.svg);
+    width: 100%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+.section26{
+    background-color: black;
+    height: 50rem;
+}
+
+.section27{
+    background-color: rgb(0, 0, 0);
+    
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100%;
+    height: 40rem;
+    
+    background-position: right;
+    
+}
 .mapazonas {
-    padding-left: 32rem;
+    padding-left: 13.5rem;
     margin-top: 6rem;
-    object-fit: contain;
+    object-fit: cover;
     transition: 1s;
+    
 
 }
 
-.mapazonas:hover {
-    transform: scale(1.4);
 
+
+
+
+
+/*------------MEDIAS--------*/
+
+@media only screen and (max-width:450px) {
+    .contenedor2 {
+        display: none;
+    }
+
+    .btn3 {
+        width: 100%;
+    }
+    .textoentrega{
+        display: none;}
+
+}
+
+@media only screen and (min-width:451px) and (max-width:960px) {
+
+    .contenedor2 {
+        margin: -3rem;
+        padding-left: 15rem;
+        padding: 5rem;
+
+    }
+
+    .texto2 {
+        display: none
+        
+
+
+    }
+
+    .textoentrega{
+        display: none;}
 
 
 }
