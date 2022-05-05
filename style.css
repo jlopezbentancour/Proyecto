@@ -360,6 +360,62 @@ h1 {
 
     .textoentrega{
         display: none;}
+        
 
 
 }
+
+.navbar-toggler{
+    
+}
+
+
+    
+.navbar-toggler-icon{
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative; 
+  }
+  .navbar-toggler span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 3%;
+    height: 3%; 
+    border-color: wheat;
+    
+    
+  }
+  .navbar-toggler-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(131, 110, 54, 0.979);
+    background-color: rgba(131, 110, 54, 0.979);
+  }
+  .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(131, 110, 54, 0.979);
+    background-color: rgba(131, 110, 54, 0.979);
+  }
+  .navbar-toggler-icon::before {
+    transform: rotate(-45deg);
+    background-color: rgba(131, 110, 54, 0.979);
+  }
+  .navbar-toggler-icon::after {
+    transform: rotate(45deg);
+    background-color: rgba(131, 110, 54, 0.979);
+  }
+  
