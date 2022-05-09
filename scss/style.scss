@@ -1,0 +1,13 @@
+
+@import '../css/header.css';
+@import '../scss/components/header';
+@import '../scss/base/estilosgenerales';
+@import '../css/backup.css';
+
+@media only screen and (min-width:451px) and (max-width:960px) {
+   
+
+    .mapazonas{
+        display: none;
+    }
+}
