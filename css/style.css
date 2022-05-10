@@ -91,6 +91,10 @@ header {
     font-size: 1rem;
     margin-top: 1rem;
   }
+
+  .futerznd {
+    margin-top: -25rem;
+  }
 }
 @media only screen and (max-width: 450px) {
   .tituloentrega {
