@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import '../base/mapas';
 
 
 
@@ -13,7 +14,7 @@
 
     &:hover {
         background-color: $loscolores;
-        
+
 
     }
 
@@ -34,18 +35,17 @@
 }
 
 .btn3 {
-    overflow: hidden;
-    color: white;
-    border-radius: 30px;
-    box-shadow: 0 0 0 0 rgb(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color:white;
-    border: solid 1px white;
+    overflow: map-get($boton1, ov);
+    color: map-get($boton1, lecolor);
+    border-radius: map-get($boton1, radius);
     
+    
+   
+
 
 }
 
-.btn3::after{
+.btn3::after {
     content: "";
     width: 400px;
     height: 400px;
@@ -53,7 +53,7 @@
     top: -50px;
     left: -100px;
     background-color: #ff3cac;
-    
+
     z-index: -1;
     transition: transform 0.5 ease;
 
@@ -64,11 +64,11 @@
     color: $loscolores;
     font-weight: 400;
     color: white;
-    
-    
-    
-    &:hover{
-        
+
+
+
+    &:hover {
+
         background-color: $loscolores;
 
     }
@@ -89,3 +89,7 @@
 header {
     background-color: rgb(0, 0, 0);
 }
+
+
+
+

@@ -1,0 +1,25 @@
+@import '../base/mapas';
+@import '../base/mixin';
+@import '../base/extends';
+
+.textnosotros{
+    
+    font-size: map-get($textos, font-size-texto);
+    @include font (white, 2rem, 500);
+    padding-top: 5rem
+    
+}
+
+
+.titulonos{
+    @extend %flex;
+    @include font (white, 4rem, 700)
+}
+
+.titulonos2{
+    @extend %flex;
+    @include font (white, 2rem, 500);
+
+    
+
+}
