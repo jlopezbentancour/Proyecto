@@ -2,24 +2,107 @@
 @import '../base/mixin';
 @import '../base/extends';
 
-.textnosotros{
-    
-    font-size: map-get($textos, font-size-texto);
-    @include font (white, 2rem, 500);
-    padding-top: 5rem
-    
-}
-
-
 .titulonos{
+    font-size: 6.5rem;
     @extend %flex;
-    @include font (white, 4rem, 700)
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-top: 22rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0)
+    
+    }
+
+ .osotros{
+     background-image: url(imagenes/friendship.jpg);
+     @extend %image;
+ }
+
+ .textonos{
+     @extend %flex;
+     font-size: 2rem;
+     color: white;
+     text-shadow: 0px 4px 4px rgb(0, 0, 0)
+
+ }
+
+ .osotros2{
+    background-image: url(imagenes/shop6.jpg);
+    @extend %image;
+    @extend %flex;
+   
 }
 
-.titulonos2{
+.osotros3{
+    background-image: url(imagenes/people2.jpg);
+    @extend %image;
     @extend %flex;
-    @include font (white, 2rem, 500);
+    
+}
+
+.osotros4{
+    background-image: url(imagenes/shop3.jpg);
+    @extend %image;
+    @extend %flex;
+
+}
+
+.troso2{
+    @extend %texto;
 
     
+}
 
+.troso3{
+    @extend %texto;
+    font-size: 3.5rem
+}
+
+.troso4{
+    @extend %texto;
+    
+    
+    
+}
+
+
+@media only screen and (min-width:451px) and (max-width:960px)
+{
+    .troso2{
+        font-size: 2rem;
+    }
+    .troso4{
+        font-size: 2rem;
+    }
+    .titulonos{
+        font-size: 3rem;
+    }
+    .textonos{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:450px) {
+    .titulonos{
+        font-size: 3rem;
+    }
+
+    .troso2{
+        font-size: 1.5rem;
+    }
+
+    .troso3{
+        font-size: 2rem;
+    }
+    .troso4{
+        font-size: 1.5rem;
+    }
+    .textonos{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
 }

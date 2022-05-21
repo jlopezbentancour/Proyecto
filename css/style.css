@@ -65,6 +65,105 @@ header {
   padding: 0;
 }
 
+.osotros4, .osotros3, .osotros2, .textonos, .titulonos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.osotros4, .osotros3, .osotros2, .osotros {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.troso4, .troso3, .troso2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.titulonos {
+  font-size: 6.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-top: 22rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.osotros {
+  background-image: url(imagenes/friendship.jpg);
+}
+
+.textonos {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.osotros2 {
+  background-image: url(imagenes/shop6.jpg);
+}
+
+.osotros3 {
+  background-image: url(imagenes/people2.jpg);
+}
+
+.osotros4 {
+  background-image: url(imagenes/shop3.jpg);
+}
+
+.troso3 {
+  font-size: 3.5rem;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .troso2 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 2rem;
+  }
+
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .troso2 {
+    font-size: 1.5rem;
+  }
+
+  .troso3 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 1.5rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+/*--------------MEDIAS ZND----------------*/
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .mapazonas {
     width: 100%;
@@ -105,38 +204,129 @@ header {
     margin-top: -45rem;
   }
 }
-.titulonos2, .titulonos {
+/*--------------MEDIAS-NOSOTROS---------------*/
+.titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.titulonos2, .titulonos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.osotros, .osotros2, .osotros3, .osotros4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
 }
 
-.textnosotros {
-  font-size: 5rem;
+.troso2, .troso3, .troso4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  font-size: 2rem;
-  font-weight: 500;
-  padding-top: 5rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.osotros, .osotros2, .osotros3, .osotros4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.troso2, .troso3, .troso4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-align: center;
 }
 
 .titulonos {
-  color: white;
-  font-size: 4rem;
+  font-size: 6.5rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
+  padding-top: 22rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
-.titulonos2 {
-  color: white;
+.osotros {
+  background-image: url(imagenes/friendship.jpg);
+}
+
+.textonos {
   font-size: 2rem;
-  font-weight: 500;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
+.osotros2 {
+  background-image: url(imagenes/shop6.jpg);
+}
+
+.osotros3 {
+  background-image: url(imagenes/people2.jpg);
+}
+
+.osotros4 {
+  background-image: url(imagenes/shop3.jpg);
+}
+
+.troso3 {
+  font-size: 3.5rem;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .troso2 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 2rem;
+  }
+
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .troso2 {
+    font-size: 1.5rem;
+  }
+
+  .troso3 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 1.5rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
 .navbar {
   border-bottom: 1px solid #660000;
 }
