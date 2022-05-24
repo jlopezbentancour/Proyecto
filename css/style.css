@@ -148,7 +148,8 @@ header {
   }
 
   .troso2 {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: black;
   }
 
   .troso3 {
@@ -208,7 +209,7 @@ header {
 /*--------------MEDIAS-NOSOTROS---------------*/
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .troso2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .troso4 {
@@ -230,12 +231,12 @@ header {
   }
 
   .troso2 {
-    font-size: 1rem;
-    color: black;
+    font-size: 1.5rem;
+    color: white;
   }
 
   .troso3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .troso4 {
@@ -353,7 +354,8 @@ header {
   }
 
   .troso2 {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: black;
   }
 
   .troso3 {
@@ -493,6 +495,188 @@ header {
   text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
+.titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.osotros, .osotros2, .osotros3, .osotros4, .vinos1, .cervezas1, .otros11, .vodkas1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.troso2, .troso3, .troso4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.titulonos {
+  font-size: 6.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-top: 22rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.osotros {
+  background-image: url(imagenes/friendship.jpg);
+}
+
+.textonos {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.osotros2 {
+  background-image: url(imagenes/shop6.jpg);
+}
+
+.osotros3 {
+  background-image: url(imagenes/people2.jpg);
+}
+
+.osotros4 {
+  background-image: url(imagenes/shop3.jpg);
+}
+
+.troso3 {
+  font-size: 3.5rem;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .troso2 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 2rem;
+  }
+
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .troso2 {
+    font-size: 2rem;
+    color: black;
+  }
+
+  .troso3 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 1.5rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+/*--------------MEDIAS ZND----------------*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .mapazonas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tituloentrega {
+    font-size: 3rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+  }
+
+  .textoentrega {
+    font-size: 1.5rem;
+  }
+
+  .futer {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .futerznd {
+    margin-top: -25rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .tituloentrega {
+    font-size: 2rem;
+  }
+
+  .textoentrega {
+    font-size: 1rem;
+    margin-top: -10rem;
+  }
+
+  .futerznd {
+    margin-top: -45rem;
+  }
+}
+/*--------------MEDIAS-NOSOTROS---------------*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .troso2 {
+    font-size: 1.8rem;
+  }
+
+  .troso4 {
+    font-size: 2rem;
+  }
+
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .troso2 {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .troso3 {
+    font-size: 1.5rem;
+  }
+
+  .troso4 {
+    font-size: 1.5rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
 .mapazonas {
   height: 200% 200%;
 }
