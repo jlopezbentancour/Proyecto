@@ -24,6 +24,7 @@
 .btn3 {
   color: white;
   border-radius: 30px;
+  border: solid 1px white;
 }
 
 .btn3::after {
@@ -71,7 +72,7 @@ header {
   align-items: center;
 }
 
-.osotros4, .osotros3, .osotros2, .osotros {
+.vodkas1, .otros11, .cervezas1, .vinos1, .osotros4, .osotros3, .osotros2, .osotros {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -147,7 +148,7 @@ header {
   }
 
   .troso2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .troso3 {
@@ -205,13 +206,54 @@ header {
   }
 }
 /*--------------MEDIAS-NOSOTROS---------------*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .troso2 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 2rem;
+  }
+
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .titulonos {
+    font-size: 3rem;
+  }
+
+  .troso2 {
+    font-size: 1rem;
+    color: black;
+  }
+
+  .troso3 {
+    font-size: 2rem;
+  }
+
+  .troso4 {
+    font-size: 1.5rem;
+  }
+
+  .textonos {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+}
 .titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.osotros, .osotros2, .osotros3, .osotros4 {
+.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -235,7 +277,7 @@ header {
   align-items: center;
 }
 
-.osotros, .osotros2, .osotros3, .osotros4 {
+.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -311,7 +353,7 @@ header {
   }
 
   .troso2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .troso3 {
@@ -351,6 +393,7 @@ header {
 .btn3 {
   color: white;
   border-radius: 30px;
+  border: solid 1px white;
 }
 
 .btn3::after {
@@ -385,6 +428,69 @@ header {
 
 header {
   background-color: rgb(0, 0, 0);
+}
+
+.titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.troso2, .troso3, .troso4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.bebidasc {
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.bebidass {
+  border: solid 2px black;
+}
+
+.vinos1 {
+  background-image: url(../imagenes/bg-1.jpg);
+  color: white;
+  padding-top: 13rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.cervezas1 {
+  background-image: url(../imagenes/bggs/cervezaaaa.jpg);
+  color: white;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.otros11 {
+  background-image: url(../imagenes/bggs/otrooos.jpg);
+  color: white;
+  padding-top: 13rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.vodkas1 {
+  color: white;
+  background-image: url(../imagenes/bggs/vodkas55.jpg);
+  padding-top: 13rem;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
 .mapazonas {

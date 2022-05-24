@@ -1,0 +1,57 @@
+@import '../base/variables';
+@import '../base/extends';
+@import '../base/mixin';
+@import '../base/mapas';
+@import '../base/variables';
+
+
+.bebidasc{
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    }
+
+
+  .bebidass{
+      border: solid 2px black;
+      
+  }
+
+  
+
+  .vinos1{
+    background-image: url(../imagenes/bg-1.jpg);
+    color: white;
+    @extend %image;
+    padding-top: 13rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  }
+
+  .cervezas1{
+      background-image: url(../imagenes/bggs/cervezaaaa.jpg);
+      color: white;
+      @extend %image;
+      
+      text-shadow: 0px 4px 4px rgb(0, 0, 0);
+      
+  }
+    
+  .otros11{
+      background-image: url(../imagenes/bggs/otrooos.jpg);
+      color: white;
+      @extend %image;
+      padding-top: 13rem;
+      text-shadow: 0px 4px 4px rgb(0, 0, 0);
+
+      
+  }
+
+  .vodkas1{
+@extend %image;
+color: white;  
+background-image: url(../imagenes/bggs/vodkas55.jpg);
+padding-top: 13rem;
+text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}

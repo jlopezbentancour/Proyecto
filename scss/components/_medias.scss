@@ -64,4 +64,46 @@
 
 /*--------------MEDIAS-NOSOTROS---------------*/
 
+@media only screen and (min-width:451px) and (max-width:960px)
+{
+    .troso2{
+        font-size: 2rem;
+        
+    }
+    .troso4{
+        font-size: 2rem;
+    }
+    .titulonos{
+        font-size: 3rem;
+    }
+    .textonos{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+}
 
+
+
+
+
+@media only screen and (max-width:450px) {
+    .titulonos{
+        font-size: 3rem;
+    }
+
+    .troso2{
+        font-size: 1rem;
+        color: black;
+    }
+
+    .troso3{
+        font-size: 2rem;
+    }
+    .troso4{
+        font-size: 1.5rem;
+    }
+    .textonos{
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+}
