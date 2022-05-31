@@ -72,7 +72,7 @@ header {
   align-items: center;
 }
 
-.vodkas1, .otros11, .cervezas1, .vinos1, .osotros4, .osotros3, .osotros2, .osotros {
+.osotros4, .osotros3, .osotros2, .osotros {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -124,47 +124,6 @@ header {
   font-size: 3.5rem;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  .troso2 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 2rem;
-  }
-
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .troso2 {
-    font-size: 2rem;
-    color: black;
-  }
-
-  .troso3 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 1.5rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
 /*--------------MEDIAS ZND----------------*/
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .mapazonas {
@@ -248,13 +207,14 @@ header {
     padding: 3rem;
   }
 }
+/*--------------MEDIAS-BEBIDAS---------------*/
 .titulonos, .textonos, .osotros2, .osotros3, .osotros4 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
+.osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -278,7 +238,7 @@ header {
   align-items: center;
 }
 
-.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
+.osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -330,47 +290,6 @@ header {
   font-size: 3.5rem;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  .troso2 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 2rem;
-  }
-
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .troso2 {
-    font-size: 2rem;
-    color: black;
-  }
-
-  .troso3 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 1.5rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
 .navbar {
   border-bottom: 1px solid #660000;
 }
@@ -438,7 +357,7 @@ header {
   align-items: center;
 }
 
-.vodkas1, .otros11, .cervezas1, .vinos1, .osotros, .osotros2, .osotros3, .osotros4 {
+.osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -471,7 +390,6 @@ header {
 .vinos1 {
   background-image: url(../imagenes/bg-1.jpg);
   color: white;
-  padding-top: 13rem;
   text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
@@ -484,14 +402,12 @@ header {
 .otros11 {
   background-image: url(../imagenes/bggs/otrooos.jpg);
   color: white;
-  padding-top: 13rem;
   text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
 .vodkas1 {
   color: white;
   background-image: url(../imagenes/bggs/vodkas55.jpg);
-  padding-top: 13rem;
   text-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
@@ -501,7 +417,7 @@ header {
   align-items: center;
 }
 
-.osotros, .osotros2, .osotros3, .osotros4, .vinos1, .cervezas1, .otros11, .vodkas1 {
+.osotros, .osotros2, .osotros3, .osotros4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -553,47 +469,6 @@ header {
   font-size: 3.5rem;
 }
 
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  .troso2 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 2rem;
-  }
-
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .titulonos {
-    font-size: 3rem;
-  }
-
-  .troso2 {
-    font-size: 2rem;
-    color: black;
-  }
-
-  .troso3 {
-    font-size: 2rem;
-  }
-
-  .troso4 {
-    font-size: 1.5rem;
-  }
-
-  .textonos {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-}
 /*--------------MEDIAS ZND----------------*/
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .mapazonas {
@@ -677,8 +552,13 @@ header {
     padding: 3rem;
   }
 }
+/*--------------MEDIAS-BEBIDAS---------------*/
 .mapazonas {
   height: 200% 200%;
+}
+
+.futer2 {
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
