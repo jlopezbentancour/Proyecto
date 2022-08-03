@@ -268,3 +268,14 @@ const agregarAlCarrito = (prodId) => {
   }
   actualizarCarrito();
 };
+
+//----Librerias-----
+
+function manejeElClick() {
+  Swal.fire({
+    title: 'Felicitaciones por su compra',
+    text: 'Queres comprar mas?',
+    icon: 'success',
+    confirmButtonText: 'Aceptar',
+  });
+}

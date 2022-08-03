@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <title>L'escabio - Servicio de bebidas a domicilio</title>
     <meta name="description"
         content="Tus bebidas favoritas al precio más bajo, directo de la fábrica a tu casa. L'escabio es un servicio de bebidas a domicilio donde encontrás cervezas, vinos, aguas, gaseosas, leches y más. !Congelá tus precios cada 4 meses y aprovechá nuestro Envío GRATIS!">
@@ -291,7 +293,8 @@
                                                 placeholder="Ingrese su edad">
                                         </div>
                                         <div>
-                                            <button type="submit" class="btn btn3 btn3x">Enviar</button>
+                                            <button type="submit" class="btn btn3 btn3x"
+                                                onclick="enviarFormulario()">Enviar</button>
                                         </div>
                                     </form>
                                 </div>
@@ -374,6 +377,7 @@
 
 
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

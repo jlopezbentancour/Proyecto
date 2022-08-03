@@ -596,3 +596,13 @@ h1 {
 #vaciar-carrito:hover {
     color: red;
 }
+
+
+#myBtn {
+    color: white;
+}
+
+#myBtn:hover {
+    cursor: pointer;
+    color: red;
+}
