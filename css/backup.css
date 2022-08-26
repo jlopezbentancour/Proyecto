@@ -477,6 +477,7 @@ h1 {
 
 .precioProducto {
     font-weight: 700;
+
 }
 
 .boton-agregar {
@@ -504,13 +505,14 @@ h1 {
     top: 0;
     width: 100%;
     height: 100vh;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all .5s;
     opacity: 0;
     visibility: hidden;
+    left: 44rem;
 
 }
 
@@ -521,11 +523,12 @@ h1 {
 
 .modal-carrito {
     position: relative;
-    background-color: black;
+    background-color: white;
     min-width: 500px;
     padding: 20px;
     margin-top: -100%;
     transition: all .5s;
+    min-height: 100%;
 }
 
 .modal-active .modal-carrito {
@@ -533,8 +536,9 @@ h1 {
 }
 
 .modal-carrito h3 {
-    color: red;
+    color: black;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .modal-carrito #carritoCerrar {
@@ -542,9 +546,10 @@ h1 {
     top: 15px;
     right: 15px;
     font-size: 20px;
-    color: royalblue;
+    color: black;
+    background-color: transparent;
     border: none;
-    background-color: black;
+
 }
 
 .modal-carrito #carritoCerrar:hover {
@@ -564,8 +569,8 @@ h1 {
     border-left: 5px solid lightblue;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
-    margin: 5px 0;
-    padding: 5px 10px;
+    margin: 0px 0;
+    padding: 0px 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -575,10 +580,11 @@ h1 {
 }
 
 .boton-eliminar {
-    background-color: black;
+    background-color: transparent;
     color: red;
     border: none;
     font-size: 20px;
+
 }
 
 .boton-eliminar:hover {
@@ -590,7 +596,7 @@ h1 {
 }
 
 #vaciar-carrito {
-    color: white;
+    color: black;
 }
 
 #vaciar-carrito:hover {
@@ -599,7 +605,7 @@ h1 {
 
 
 #myBtn {
-    color: white;
+    color: black;
 }
 
 #myBtn:hover {
