@@ -74,8 +74,7 @@ fetch('./stock.json')
     console.log(e);
   });
 
-//------------------------------------------------------------------------------------//
-
+//-----------------------FUNCIONES -----------------------------------
 const actualizarCarrito = () => {
   contenedorCarrito.innerHTML = '';
 
@@ -84,6 +83,7 @@ const actualizarCarrito = () => {
     div.className = 'productoEnCarrito';
     div.innerHTML = `
     <p>${prod.nombre}</p>
+    <img src=${prod.img} alt="" class="img-fluid" width="70px">
     <p>Precio:$${prod.precio}</p>
     <p>Cantidad: <span id="cantidad">${prod.cantidad}</span></p>
     <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
@@ -97,8 +97,6 @@ const actualizarCarrito = () => {
   contadorCarrito.innerText = carrito.length;
   precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0);
 };
-
-//---------FUNCIONES AGREGAR Y ELIMINAR-----------------
 
 const eliminarDelCarrito = (prodId) => {
   const item = carrito.find((prod) => prod.id === prodId);
