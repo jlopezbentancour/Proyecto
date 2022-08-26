@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Juan Cruz Lopez</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🌱 I’m currently learning **Javascript**
+- 🌱 I’m currently learning **React JS**
 
 - 👯 I’m looking to collaborate on **tesla**
 
